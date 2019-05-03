@@ -9,7 +9,7 @@ public class HelloManOnceSay implements HelloMan {
     }
         @Override
     public void helloSay() {
-            System.out.println();
+            System.out.println("Hello " + this.getName());
     }
 
     @Override
