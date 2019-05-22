@@ -1,5 +1,8 @@
 package homework_1.javaconfig;
 
+import homework_1.autowired.Client;
+import homework_1.autowired.Polyclinic;
+import homework_1.autowired.Reception;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

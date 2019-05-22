@@ -9,5 +9,8 @@
         <module name="gb_spring_framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="gb_spring_framework" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
